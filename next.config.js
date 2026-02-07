@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  distDir: 'dist',
+  // SUPPRIMEZ output: 'export' - laissez Next.js gérer automatiquement
   images: {
     unoptimized: true
   }
